@@ -26,6 +26,23 @@ This is a simple stock trading simulation app built using **Python Flask**, **SQ
 - **Jinja2 Templates**
 
 ---
+🤝 Contributing
+Pull requests are welcome. If you want to make major changes, please open an issue first to discuss what you'd like to change.
+
+📜 License
+This project is licensed under the MIT License.
+
+🙋‍♀️ Created By
+Priyadharshnee R
+🎓 B.Tech – Information Technology
+🚀 Aspiring Data Engineer | SDE
+🔗 LinkedIn
+🐱 GitHub
+
+ visit:
+📍 http://127.0.0.1:5050/trading
+
+
 
 
 
