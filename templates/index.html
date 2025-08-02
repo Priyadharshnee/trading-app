@@ -1,0 +1,25 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trading App - Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="navbar">
+        <h2>Trading App</h2>
+        <div>
+            <a href="{{ url_for('index') }}">Home</a>
+            <a href="{{ url_for('portfolio') }}">Portfolio</a>
+            <a href="{{ url_for('trade') }}">Trade</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h3>Welcome to the Trading Application</h3>
+        <p>This app allows you to simulate stock trading, track your portfolio, and view your transaction history.</p>
+        <a href="{{ url_for('trade') }}" class="btn">Start Trading</a>
+    </div>
+</body>
+</html>

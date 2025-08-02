@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trade History</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+    <h2>Transaction History</h2>
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>Action</th><th>Stock</th><th>Qty</th><th>Price</th><th>Total</th><th>Time</th>
+        </tr>
+        {% for r in records %}
+        <tr>
+            <td>{{ r[1] }}</td><td>{{ r[2] }}</td><td>{{ r[3] }}</td><td>₹{{ r[4] }}</td><td>₹{{ r[5] }}</td><td>{{ r[6] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+</body>
+</html>
